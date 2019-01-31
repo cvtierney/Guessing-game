@@ -25,7 +25,7 @@ while guessesTaken < 20:
 
 if guess == number:
     guessesTaken = str(guessesTaken)
-    print('Good Job ' + myName + '! You guessed my number in ' + guessesTaken + ' guesses!)
+    print('Good Job ' + myName + '! You guessed my number in ' + guessesTaken + ' guesses!')
 
 if guess != number:
     number = str(number)
